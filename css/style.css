@@ -5,32 +5,82 @@ html {
 body {
   background-color: black;
   color: white;
+  font-size: 16px;
 }
 
 header {
   display: flex;
   justify-content: space-between;
+  padding: 2em 4em 1em 4em;
   align-items: center;
-  margin: 1rem 3rem 1rem 3rem;
+  border-bottom: 0.5px solid white;
 }
 
-ul {
+header .-button {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  margin-right: 1em;
+}
+
+header .-menu-container {
   display: flex;
-  padding: 0px;
 }
 
-li {
-  list-style-type: none;
-}
-
-.-logo {
-  order: 2;
-}
-
-.-button {
-  order: 3;
+.nav-links {
+  color: white;
+  text-decoration: none;
+  padding: 0 1em;
 }
 
 .nav-menu {
-  order: 1;
+  display: flex;
+  align-items: center;
+  padding: 0 1em;
+}
+
+.hero-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.hero-container .hero-text {
+  text-align: center;
+}
+
+.hero-container .text-questions {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.form-container .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  align-items: center;
+}
+
+.form-group .form-input {
+  background-color: white;
+  color: gray;
+  font-size: 1rem;
+  padding: 0.5em 1em;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.form-group .form-submit {
+  background-color: black;
+  color: white;
+  border: solid 0.5px white;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  text-align: center;
+  align-content: center;
 }

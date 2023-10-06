@@ -9,19 +9,40 @@
   </head>
   <body>
     <header>
-      <img src="../buscafacil/images/logo.png" alt="logo" class="-logo" />
-      <a href="#" class="-button">Button</a>
-      <ul class="nav-menu">
-        <li class="nav-links">Link one</li>
-        <li class="nav-links">Link two</li>
-        <li class="nav-links">Link three</li>
-        <li class="nav-links">Link four</li>
-      </ul>
+      <div class="-logo">
+        <img src="../buscafacil/images/logo.png" alt="logo" />
+      </div>
+      <div class="-menu-container">
+        <div class="nav-menu nav-grow">
+          <a href="" class="nav-links">Home</a>
+          <a href="" class="nav-links">About us</a>
+          <a href="" class="nav-links">Features</a>
+          <a href="" class="nav-links">Contact</a>
+        </div>
+        <a href="#" class="-button nav-grow">Button</a>
+      </div>
     </header>
     <section class="hero-container">
       <div class="hero-text">
-        <h1>¿Ut enim ad minima veniam, quis nostrum?</h1>
-        <form action="">Write a thing here</form>
+        <form class="form">
+          <h1 class="form-title">Lorem ipsum dolor sit.</h1>
+          <p class="form-text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum,
+            corrupti?
+          </p>
+          <div class="form-container">
+            <div class="form-group">
+              <input
+                type="text"
+                id="name"
+                class="form-input"
+                placeholder=" Ut enim ad minima veniam,"
+              />
+              <span class="form-line"></span>
+              <input type="text" class="form-submit" value="Buscar" />
+            </div>
+          </div>
+        </form>
       </div>
       <div class="text-questions">
         <p>
