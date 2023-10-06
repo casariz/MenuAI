@@ -1,1 +1,36 @@
+html {
+  box-sizing: border-box;
+}
 
+body {
+  background-color: black;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 3rem 1rem 3rem;
+}
+
+ul {
+  display: flex;
+  padding: 0px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.-logo {
+  order: 2;
+}
+
+.-button {
+  order: 3;
+}
+
+.nav-menu {
+  order: 1;
+}
