@@ -29,6 +29,10 @@ header .-menu-container {
   display: flex;
 }
 
+.--logo {
+  width: 80px;
+}
+
 .nav-links {
   color: white;
   text-decoration: none;
@@ -55,6 +59,7 @@ header .-menu-container {
 .hero-container .text-questions {
   text-align: center;
   margin-top: 1em;
+  width: 100%;
 }
 
 .form-container .form-group {
@@ -83,4 +88,41 @@ header .-menu-container {
   border-radius: 5px;
   text-align: center;
   align-content: center;
+}
+
+@media (max-width: 767px) {
+  .form-group .form-input {
+    padding: 0.5em 1em;
+  }
+
+  .hero-container {
+    margin: 2em 2em;
+  }
+
+  header {
+    padding: 1em 1.5em 1em 1.5em;
+  }
+
+  header .-button {
+    margin-right: 0;
+  }
+  .nav-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .form-group .form-input {
+    padding: 0.5em 1em;
+  }
+
+  .hero-container {
+    margin: 2em 2em;
+  }
+  .nav-menu .-button {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1024px) {
 }
